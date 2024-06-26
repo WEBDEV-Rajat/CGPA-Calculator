@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(54, 105, 169);
+}
+
+.cgpa #inputContainer{
+    display : flex;
+    flex-direction: column;
+    gap : 10px;
+    width : 270px;
+    column-gap: 50px;
+    margin : auto;
+}
+
+#courseForm{
+    text-align: center;
+}
+h1{
+    font-style: italic;
+}
+.cgpa{
+    text-align: center;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+button{
+    background-color: rgb(24, 203, 36);
+    margin: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+#courseform button{
+    width : 70px;
+}
+
+#buttonContainer{
+    font-style: italic;
+}
+
+input{
+    border-radius: 5px;
+    outline: none;
+}
+@keyframes fadeInAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
